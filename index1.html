@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test1</title>
+	</head>
+
+	<input type="number" id="tmp" class="temp">
+	<script type="application/javascript">
+		var tmp = 2 + 2; /* potrzebna byla zmiana z dzialania laczacego lancuchy
+		znakowe na dodawanie dwoch wartosci liczbowyych, opuszczenie " " zalatwilo sprawe*/
+		document.getElementsByClassName('temp')[0].value = tmp; /*wymagane bylo wskazanie poprzez 
+		[0] do ktorego elementu ze zbioru elementow oznaczonych poprzez class='temp' sie odnosimy, 
+		jest to pierwszy element wiec jego indeks w tym zbiorze to 0 */
+
+	</script>
+</html>
